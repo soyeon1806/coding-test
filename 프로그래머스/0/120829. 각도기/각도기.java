@@ -1,9 +1,6 @@
-#include <stdio.h>
-#include <stdbool.h>
-#include <stdlib.h>
-
-int solution(int angle) {
-    int answer = 0;
+class Solution {
+    public int solution(int angle) {
+        int answer = 0;
     
     if (angle < 90){
         answer = 1;
@@ -19,4 +16,5 @@ int solution(int angle) {
     }
     
     return answer;
+    }
 }
