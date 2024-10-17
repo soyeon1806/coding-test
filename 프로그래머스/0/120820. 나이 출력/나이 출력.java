@@ -1,9 +1,6 @@
-#include <stdio.h>
-#include <stdbool.h>
-#include <stdlib.h>
-
-int solution(int age) {
-    int answer = 0;
+class Solution {
+    public int solution(int age) {
+        int answer = 0;
     
     if (age < 23){
         answer = 2022 - age + 1;
@@ -13,4 +10,6 @@ int solution(int age) {
     }
     
     return answer;
+        
+    }
 }
