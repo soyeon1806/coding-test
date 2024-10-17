@@ -3,5 +3,6 @@ class Solution {
         int answer = num1 - num2;
         
         return answer;
+        
     }
 }
